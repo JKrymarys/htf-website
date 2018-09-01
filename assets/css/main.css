@@ -7181,9 +7181,9 @@ input, select, textarea {
 
 	}
 
-	.gallery article .image {
+	/* .gallery article .image {
 		background-color: rgba(0, 0, 0, 0.125);
-	}
+	} */
 
 /* Wrapper (style1) */
 
@@ -7195,7 +7195,8 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 > .inner.medium {
-			width: 48rem;
+			width: 60rem;
+			text-align: justify;
 		}
 
 		.wrapper.style1 > .inner.small {
@@ -7250,7 +7251,11 @@ input, select, textarea {
 			position: relative;
 			width: 64rem;
 			z-index: 1;
+			
 		}
+			.inner > p {
+				text-align: justify;
+			}
 
 			.wrapper.style2 > .inner.medium {
 				width: 48rem;
